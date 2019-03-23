@@ -19,7 +19,7 @@ public class Bot extends TelegramLongPollingBot {
     if (update.hasMessage()) {
       switch (update.getMessage().getText()) {
         case "/start":
-          sendMsg(update.getMessage(), "Здраствуйте, " + update.getMessage().getFrom().getFirstName() + ". Чем могу помочь?");
+          sendMsg(update.getMessage(), "Здравствуйте, " + update.getMessage().getFrom().getFirstName() + ". Чем могу помочь?");
           break;
         case "Хочу узнать курс доллара к тенге":
           sendMsg(update.getMessage(), "Курс доллара к тенге равен: 378,41 KZT");
