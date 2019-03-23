@@ -23,7 +23,7 @@ public class Bot extends TelegramLongPollingBot {
           break;
         case "Хочу узнать курс доллара к тенге":
           sendMsg(update.getMessage(), "Курс доллара к тенге равен: 378,41 KZT");
-
+          break;
       }
     }
   }
